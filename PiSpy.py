@@ -531,22 +531,22 @@ class App:
         self.won_box = Entry(self.master, state=DISABLED)
         self.won_box.grid(row = 2, column = 5, sticky=N)
         self.won_box_description = Label(self.master, text= "White LED ON").grid(row=2, column=4, sticky=W)
-        self.timewon_description = Label(self.master, text="(hh:mm:ss)").grid(row=2, column=6, sticky=W) #edit: making time format hh:mm:ss
+        self.timewon_description = Label(self.master, text="(hh:mm)").grid(row=2, column=6, sticky=W) 
 
         self.woff_box = Entry(self.master, state=DISABLED)
         self.woff_box.grid(row=2, column=8, sticky= N)
         self.woff_box_description = Label(self.master, text= "White LED OFF").grid(row=2, column=7, sticky=W)
-        self.timewoff_description = Label(self.master, text="(hh:mm:ss)").grid(row=2, column=9, sticky=W) #edit: making time format hh:mm:ss
+        self.timewoff_description = Label(self.master, text="(hh:mm)").grid(row=2, column=9, sticky=W) 
 
         self.ron_box = Entry(self.master, state=DISABLED)
         self.ron_box.grid(row = 4, column = 5, sticky=N)
         self.ron_box_description = Label(self.master, text= "Red LED ON").grid(row=4, column=4, sticky=W)
-        self.timeron_description = Label(self.master, text="(hh:mm:ss)").grid(row=4, column=6, sticky=W) #edit: making time format hh:mm:ss
+        self.timeron_description = Label(self.master, text="(hh:mm)").grid(row=4, column=6, sticky=W) 
 
         self.roff_box = Entry(self.master, state=DISABLED)
         self.roff_box.grid(row=4, column=8, sticky= N)
         self.roff_box_description = Label(self.master, text= "Red LED OFF").grid(row=4, column=7, sticky=W)
-        self.timeroff_description = Label(self.master, text="(hh:mm:ss)").grid(row=4, column=9, sticky=W) #edit: making time format hh:mm:ss
+        self.timeroff_description = Label(self.master, text="(hh:mm)").grid(row=4, column=9, sticky=W) 
 
 
 
